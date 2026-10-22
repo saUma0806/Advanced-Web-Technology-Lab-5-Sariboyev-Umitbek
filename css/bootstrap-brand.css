@@ -1,0 +1,16 @@
+/* Brand colours on top of Bootstrap 5 (Part C) */
+body { padding-top: 70px; background: #FAF6EE; font-family: Arial, sans-serif; font-size: 16px; }
+h1, h2, h3 { font-family: Georgia, serif; color: #0B1F4B; }
+.navbar, footer { background: #0B1F4B; }
+.navbar-brand span { color: #E0A526; }
+.navbar.navbar-dark { --bs-navbar-hover-color: #0B1F4B; --bs-navbar-active-color: #fff; }
+.nav-link:hover { background: #E0A526; }
+.nav-link.active { border-bottom: 3px solid #E0A526; }
+.hero { background: linear-gradient(135deg, #0B1F4B, #1d3f8f); }
+.hero h1 { color: #fff; }
+.hero p { max-width: 560px; }
+.btn-gold { background: #E0A526; color: #0B1F4B; font-weight: bold; }
+.btn-gold:hover { background: #fff; color: #0B1F4B; }
+.badge { background: #E0A526; color: #0B1F4B; }
+.card { transition: transform .2s; }
+.card:hover { transform: translateY(-6px); }
